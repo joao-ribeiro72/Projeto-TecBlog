@@ -2,7 +2,7 @@
 
 Este é um projeto de um blog fictício criado para demonstração das linguagens HTML e CSS. A página contém uma estrutura básica de blog com uma área de postagens principais e uma barra lateral com postagens recentes. A seguir, apresentamos uma visão geral do projeto e seus componentes.
 
-**VISITAR A PÁGINA:** [Link para a página do projeto]()
+**VISITAR A PÁGINA:** [[Link para a página do projeto](https://joao-ribeiro72.github.io/Projeto-TecBlog/)]()
 
 ## Estrutura do Projeto
 
