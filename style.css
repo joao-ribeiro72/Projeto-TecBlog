@@ -1,0 +1,118 @@
+@font-face { 
+  font-family: Axewielder; /* Define a fonte Axewielder para uso */
+  src: local(Axewielder), url(axewielder.ttf);
+}
+
+html {
+  background-image: url(fundo.jpg); /* Aplica uma imagem de fundo à página */
+}
+
+.cabeçalho { 
+  display: flex; /* Layout flexível na seção de cabeçalho */
+  flex-direction: column; /* Alinha itens do cabeçalho em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  background-color: #f7b600; /* Cor de fundo do cabeçalho */
+}
+
+.container { 
+  max-width: auto; /* Define a largura máxima do container */
+  display: flex; /* Layout flexível no container */
+  flex-direction: column; /* Alinha itens dentro do container em coluna */
+}
+
+.titulo {
+  font-size: 32px; /* Define o tamanho da fonte do título */
+  font-family: AxeWielder; /* Aplica a fonte Axewielder ao título */
+}
+
+.menu {
+  display: flex; /* Layout flexível no menu */
+  flex-direction: row; /* Alinha itens do menu em linha */
+  justify-content: space-around; /* Distribui os itens do menu igualmente */
+  align-items: center; /* Centraliza os itens do menu verticalmente */
+  padding: 0; /* Remove o preenchimento no menu */
+}
+
+.nav-list {
+  list-style: none; /* Remove o estilo padrão da lista */
+  display: flex; /* Layout flexível na lista de navegação */
+  justify-content: center; /* Centraliza os itens da lista */
+  margin: 0; /* Remove a margem da lista */
+}
+
+.nav-item {
+  position: relative; /* Define o posicionamento relativo dos itens */
+  display: flex; /* Layout flexível nos itens da navegação */
+  margin-right: 20%; /* Define a margem à direita dos itens */
+  font-family: fantasy; /* Aplica a fonte fantasy aos itens */
+  font-size: 20px; /* Define o tamanho da fonte dos itens */
+}
+
+.a {
+  text-decoration: none; /* Remove a sublinha do link */
+  color: white; /* Define a cor do texto do link */
+  padding: 15% 20%; /* Define o espaçamento interno do link */
+}
+
+a:hover {
+  background-color: white; /* Muda o fundo ao passar o mouse sobre o link */
+  color: #f7b600; /* Muda a cor do texto ao passar o mouse sobre o link */
+}
+
+.area-principal {
+  width: 920px; /* Define a largura da área principal */
+  margin: 0 auto; /* Centraliza a área principal na página */
+  padding: 15px; /* Define o espaçamento interno da área principal */
+}
+
+.area-postagens {
+  width: 660px; /* Define a largura da área de postagens */
+  float: left; /* Alinha a área de postagens à esquerda */
+}
+
+.area-lateral {
+  width: 240px; /* Define a largura da área lateral */
+  float: right; /* Alinha a área lateral à direita */
+}
+
+.postagem {
+  padding: 20px; /* Define o espaçamento interno da postagem */
+  margin-bottom: 20px; /* Define o espaçamento entre postagens */
+  background: white; /* Define o fundo branco da postagem */
+}
+
+.conteudo-lateral {
+  background: white; /* Define o fundo branco para o conteúdo lateral */
+  padding: 10px; /* Define o espaçamento interno do conteúdo lateral */
+  margin-bottom: 20px; /* Define o espaçamento abaixo do conteúdo lateral */
+}
+
+.postagem-lateral { 
+  font-size: 0.8em; /* Define o tamanho da fonte das postagens laterais */
+  padding: 5px; /* Define o espaçamento interno das postagens laterais */
+  border-bottom: 1px dotted #CCC; /* Adiciona uma borda pontilhada nas postagens laterais */
+  border-color: grey; /* Define a cor da borda como cinza */
+  border-width: 2px; /* Define a largura da borda */
+}
+
+.texto-recentes { 
+  font-size: 16px; /* Define o tamanho da fonte dos títulos recentes */
+  color: #565656; /* Define a cor do texto dos títulos recentes */
+  margin-top: 10%; /* Define o espaçamento acima dos títulos recentes */
+}
+
+.titulo-recentes {
+  width: 200px; /* Define a largura do título das postagens recentes */
+  height: 35px; /* Define a altura do título das postagens recentes */
+  background-color: #B0C4DE; /* Define a cor de fundo para o título das postagens recentes */
+  align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+  display: flex; /* Utiliza flexbox para permitir a centralização e alinhamento do conteúdo */
+}
+
+.clear {
+  clear: both; /* Limpa o float dos elementos anteriores */
+}
+
+.sub {
+  font-family: Bradley Hand, cursive; /* Define a fonte cursiva para elementos */
+}
